@@ -2,7 +2,7 @@ var cityList =$("#city-list");
 var cities = [];
 var key = "fc8bffadcdca6a94d021c093eac22797";
 
-//Format for day
+
 function FormatDay(date){
     var date = new Date();
     console.log(date);
@@ -19,4 +19,5 @@ function FormatDay(date){
 
 
 function getResponseWeather(cityName){
-    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" +cityName+ "&appid=" + key; 
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" +cityName+ "&appid=" + key;
+}
